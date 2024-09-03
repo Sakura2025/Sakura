@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAKURA Live In Concert</title>
+    <style>
+        body {
+            background-color: black; /* Set page background color to black */
+            color: white; /* Set text color to white for better visibility */
+        }
+        .paragraph {
+            font-size: 28px; /* Adjust font size here */
+        }
+        .button-container {
+            text-align: right; /* Align the button to the right */
+            margin-right: 100px; /* Adjust the distance from the right side */
+        }
+        button {
+            font-size: 20px; /* Adjust button text size */
+            padding: 8px 26px; /* Adjust button size */
+            background-color: #333; /* Button background color */
+            color: white; /* Button text color */
+            border: none;
+            cursor: pointer;
+            border-radius: 10px; /* Make button corners curved */
+        }
+        button:hover {
+            background-color: gray; /* Optional: Change button color on hover */
+        }
+    </style>
+</head>
+<body>
+<br>
+    <h1>Thanks For Joining Us.</h1>
+    <div class="button-container">
+        <a href="file:///D:/Web%20Site%20Interfaces/First%20Page.html">
+            <button type="button">Back To Home Page</button>
+        </a>
+    </div>
+</body>
+</html>

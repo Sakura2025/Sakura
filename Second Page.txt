@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAKURA Live In Concert</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+        .container img:first-of-type {
+            width: 392.75px;
+            height: 143.25px;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+        }
+        .container img:last-of-type {
+            width: 1200px;
+            height: 1200px;
+            display: block;
+            margin: 0 auto;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            box-sizing: border-box;
+            padding-top: 200px;
+            padding-left: 10%;
+        }
+        .overlay h1 {
+            margin: 0;
+            font-size: 36px;
+            text-align: left;
+        }
+        .overlay p {
+            font-size: 26px;
+            margin: 10px 0;
+            text-align: left;
+            width: 80%;
+            max-width: 800px;
+        }
+        .white-line {
+            width: 100%;
+            height: 50px;
+            background-color: white;
+            position: relative;
+            margin-top: 20px; /* Optional: Add some space before the line */
+        }
+        .white-line-content {
+            position: absolute;
+            top: -0px; /* Adjust this value to position the content on top of the white line */
+            left: 35%;
+            transform: translateX(-50%);
+            width: 80%; /* Adjust width for better readability */
+            max-width: 800px; /* Set a maximum width to keep paragraphs manageable */
+            color: black; /* Change text color to black for readability */
+            text-align: left; /* Align text to the left */
+        }
+        .white-line-content p {
+            font-size: 13px;
+            margin: 8px 0;
+        }
+        .button-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px; /* Space between buttons */
+        }
+        .button-container a {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .button-container a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="D:\Web Site Interfaces\Sakura Logo.png" alt="Logo Image">
+        <img src="D:\Web Site Interfaces\Second page Cover Image.png" alt="Background Image">
+        <div class="overlay">
+            <h1>TERMS & CONDITIONS</h1>
+            <p>1. All persons over the age of eight are required to obtain a ticket.</p>
+            <p>2. The ticket you have purchased is only valid for the mentioned show date & time.</p>
+            <p>3. One ticket is only valid for the entry of one person to the concert.</p>
+            <p>4. The organizers have the right to deny access to the concert if the ticket is not validated.</p>
+            <p>5. The organizers have the right to postpone, change the date, or cancel the concert due to unavoidable circumstances. Thereafter the refund procedure will be announced as soon as possible.</p>
+            <p>6. It is your responsibility to protect your ticket. Replacements will not be given for a lost ticket, so please store your tickets in a secured place.</p>
+            <p>7. There may be special circumstances where a ticket holder cannot attend the show. The organizers will review such circumstances on a case-by-case basis. However, this does not guarantee a refund after the ticket is issued.</p>
+            <p>8. As a general rule, all ticket sales are final and non-refundable. Tickets cannot be exchanged or refunded after purchase unless conditions of above (5) apply.</p>
+            <p>9. Tickets are issued subject to the rules and regulations of the venue and organizers. Breach of any of these Rules and Regulations or any unacceptable behavior likely to cause damage shall entitle the organizers to eject you from the venue.</p>
+            <p>10. The ticket holder has a right only to a seat of the value corresponding to that stated.</p>
+        </div>
+        <div class="button-container">
+            <a href="file:///D:/Web%20Site%20Interfaces/First%20Page.html">HOME</a>
+            <a href="file:///D:/Web%20Site%20Interfaces/Second%20Page.html">TERMS</a>
+            <a href="https://maps.app.goo.gl/xp3uyAdCCqvwL5Af9">VENUE</a>
+        </div>
+    </div>
+    <div class="white-line">
+        <div class="white-line-content">
+            <p>© 2025 Sakura the contemporary guise of ancestral Music Developed by Indhuwara Kularathne</p>
+            <p>Contact Us:- +94 77 332 9800</p>
+        </div>
+    </div>
+</body>
+</html>

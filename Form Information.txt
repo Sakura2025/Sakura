@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAKURA Live In Concert</title>
+    <style>
+        body {
+            background-color: black; /* Set page background color to black */
+            color: white; /* Set text color to white for better visibility */
+        }
+        .paragraph {
+            font-size: 28px; /* Adjust font size here */
+        }
+        .button-container {
+            text-align: right; /* Align the button to the right */
+            margin-right: 200px; /* Adjust the distance from the right side */
+        }
+        button {
+            font-size: 20px; /* Adjust button text size */
+            padding: 8px 50px; /* Adjust button size */
+            background-color: #333; /* Button background color */
+            color: white; /* Button text color */
+            border: none;
+            cursor: pointer;
+            border-radius: 10px; /* Make button corners curved */
+        }
+        button:hover {
+            background-color: gray; /* Optional: Change button color on hover */
+        }
+    </style>
+</head>
+<body>
+<br>
+    <h1>Attention Please</h1>
+    <p class="paragraph">A ticket for the 36 first row seats is Rs.1000 and for other back row seats, a ticket is Rs.500.Before Filling The Form,Deposit The Amount Related To The Number Of Tickets You Need To Our Bank Acount And Proceed To Fill The Form With The Receipt.We are bound to send your e-tickets to your email address within 24 hours after filling and submitting the form correctly. Furthermore, we will not be responsible for any inconvenience caused by not filling the form correctly.We apologize for any inconvenience caused to you.Click Next Button To Fill The Form.</p>
+    <div class="button-container">
+        <a href="file:///D:/Web%20Site%20Interfaces/Personal%20Details.html">
+            <button type="button">Next</button>
+        </a>
+    </div>
+</body>
+</html>
